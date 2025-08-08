@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MovieFlix - All Videos | Fast Loading</title>
+    
+    <!-- Social Media Link Preview (Open Graph Tags) -->
+    <meta property="og:title" content="MovieFlix - Watch Free Movies, Shows & Music Videos" />
+    <meta property="og:description" content="আপনার বিনোদনের নতুন ঠিকানা। বিনামূল্যে দেখুন নতুন মুভি, শো, সেলিব্রিটি মোমেন্টস এবং মিউজিক ভিডিও।" />
+    <meta property="og:image" content="https://i.imgur.com/tSITl0k.png" />
+    <meta property="og:url" content="YOUR_WEBSITE_URL_HERE" /> <!-- এখানে আপনার লাইভ ওয়েবসাইটের লিঙ্ক দেবেন -->
+    <meta property="og:type" content="website" />
+    
+    <title>MovieFlix - All Videos | Watch Movies & Shows Free</title>
 
-    <!-- Google Fonts (for professional look) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <!-- Adsterra Social Bar Ad Code -->
+    <!-- ALL AD SCRIPTS PLACED HERE -->
+    <!-- 1. Adsterra Social Bar -->
     <script type='text/javascript' src='//remarkillustration.com/90/84/6e/90846e4a77416c8ed48acf942330cbc6.js'></script>
-    
-    <!-- Adsterra Banner Ad Script -->
+    <!-- 2. Adsterra Banner Ad -->
     <script async="async" data-cfasync="false" src="//remarkillustration.com/72d09efd32735ddbfde1d09ee965eafe/invoke.js"></script>
+    <!-- 3. Click Banner Ad -->
+    <script src="//data159.click/js/responsive.js" async></script>
 
     <!-- Internal CSS Styles -->
     <style>
@@ -24,18 +34,19 @@
         header h1 { font-size: 2.5rem; color: #e50914; font-weight: 700; }
         header nav a { color: #ffffff; text-decoration: none; margin-left: 20px; font-size: 1.1rem; transition: color 0.3s; }
         header nav a:hover { color: #e50914; }
-        main { padding: 2rem; }
-        .ad-banner { text-align: center; margin: 0 auto 2rem auto; display: flex; justify-content: center; align-items: center; min-height: 90px; }
-        .section-title { font-size: 2rem; color: #e50914; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #333; }
-        .movie-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+        main { padding: 1rem; }
+        .ad-container { text-align: center; margin: 2rem auto; display: flex; justify-content: center; align-items: center; min-height: 90px; }
+        .section-title { font-size: 2rem; color: #e50914; margin: 2.5rem 0 1.5rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid #333; }
+        .movie-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
         .movie-card { background-color: #1f1f1f; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); transition: transform 0.3s, box-shadow 0.3s; }
         .movie-card:hover { transform: scale(1.03); box-shadow: 0 8px 30px rgba(229, 9, 20, 0.4); }
         .video-wrapper { position: relative; padding-top: 56.25%; height: 0; background-color: #000; }
         .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
-        .movie-card h3 { font-size: 1.1rem; font-weight: 500; padding: 1rem; text-align: center; background-color: #2a2a2a; min-height: 75px; display: flex; align-items: center; justify-content: center; }
+        .movie-card h3 { font-size: 1rem; font-weight: 500; padding: 1rem; text-align: center; background-color: #2a2a2a; min-height: 65px; display: flex; align-items: center; justify-content: center; }
         footer { text-align: center; padding: 1.5rem; margin-top: 2rem; background-color: #1a1a1a; border-top: 1px solid #333; }
         @media (max-width: 768px) {
             header { flex-direction: column; gap: 1rem; }
+            main { padding: 1rem; }
             .movie-grid { grid-template-columns: 1fr; }
             .section-title { font-size: 1.5rem; }
         }
@@ -49,50 +60,68 @@
     </header>
 
     <main>
-        <div class="ad-banner"><div id="container-72d09efd32735ddbfde1d09ee965eafe"></div></div>
+        <!-- AD PLACEMENT 1: Adsterra Banner -->
+        <div class="ad-container"><div id="container-72d09efd32735ddbfde1d09ee965eafe"></div></div>
 
         <h2 class="section-title">Featured Movies & Shows</h2>
         <div class="movie-grid">
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/RL_EOoQXpW8" title="প্রিয়তমা | PRIYOTOMA | FULL MOVIE" frameborder="0" allowfullscreen></iframe></div><h3>প্রিয়তমা (Priyotoma) Full Movie</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/2vbJAXwGyc4" title="Badshah The Don (ডন বাদশা)" frameborder="0" allowfullscreen></iframe></div><h3>Badshah The Don (ডন বাদশা)</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/KVxmiDsGm9U" title="Hyena : Dwayne Johnson | New Action Movie 2025" frameborder="0" allowfullscreen></iframe></div><h3>Hyena: Action Movie</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/tVAUC0Ue1K0" title="Land Shark | Horror & Thriller | Hindi Dubbed" frameborder="0" allowfullscreen></iframe></div><h3>Land Shark (Hindi Dubbed)</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/zhBaz26Qaec" title="Highlight EP1：DIDI&ELYN&AUN AUN&RAY&JASMINE&quot;TEST ME&quot; 【CHUANG ASIA】" frameborder="0" allowfullscreen></iframe></div><h3>CHUANG ASIA: "TEST ME"</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/rUzFzs_SsQ8" title="โชว์สุดร้อนแรงจากทีม Barbie Girls | Highlight CHUANG ASIA EP.1" frameborder="0" allowfullscreen></iframe></div><h3>CHUANG ASIA: Barbie Girls</h3></div>
+            <!-- All Movie & Show Videos -->
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/RL_EOoQXpW8" title="Priyotoma" frameborder="0" allowfullscreen></iframe></div><h3>প্রিয়তমা (Priyotoma) Full Movie</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/2vbJAXwGyc4" title="Badshah The Don" frameborder="0" allowfullscreen></iframe></div><h3>Badshah The Don (ডন বাদশা)</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/KVxmiDsGm9U" title="Hyena" frameborder="0" allowfullscreen></iframe></div><h3>Hyena: Action Movie</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/tVAUC0Ue1K0" title="Land Shark" frameborder="0" allowfullscreen></iframe></div><h3>Land Shark (Hindi Dubbed)</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/YM44oK45V6E" title="Leader 171" frameborder="0" allowfullscreen></iframe></div><h3>লিডার ১৭১ (Bangla Dubbed)</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/BqulrjMe_bc" title="Killer Python" frameborder="0" allowfullscreen></iframe></div><h3>Killer Python (Bangla Dub)</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/CNr5PpPvWMI" title="Quantum Fist" frameborder="0" allowfullscreen></iframe></div><h3>Quantum Fist (Hindi Dubbed)</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/uELebpJaEEg" title="Godse" frameborder="0" allowfullscreen></iframe></div><h3>Godse (Bangla Dubbing)</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/QK2h4GqxXNk" title="Ismart Shankar" frameborder="0" allowfullscreen></iframe></div><h3>ইস্মার্ট শংকর (Bangla Dubbed)</h3></div>
         </div>
 
         <h2 class="section-title">Talk Shows & Celebrity Moments</h2>
         <div class="movie-grid">
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/xrAQs-47hpE" title="Sis-tastic Spectacle ft. Kapoor Sisters | Koffee With Karan" frameborder="0" allowfullscreen></iframe></div><h3>Koffee With Karan: Kapoor Sisters</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/I9dqklU1Snw" title="BFF Goals | Sara & Ananya | Koffee With Karan" frameborder="0" allowfullscreen></iframe></div><h3>Koffee With Karan: Sara & Ananya</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/X8Xm6zAuuvQ" title="Janhvi Kapoor, Orry & Manish Paul at 69th Filmfare awards" frameborder="0" allowfullscreen></iframe></div><h3>Filmfare Awards: Janhvi & Orry</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/4QMVFHjbsjk" title="শাকিব খান ও তাসনিয়া ফারিণ | Meril Prothom Alo Award" frameborder="0" allowfullscreen></iframe></div><h3>Meril Prothom Alo: Shakib & Farin</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/oxAeJNwR5uk" title="Inside Ananya Panday's First Home in Mumbai" frameborder="0" allowfullscreen></iframe></div><h3>Inside Ananya Panday's Home</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/SL2FLSCyo14" title="Alia Bhatt Gets Ready for the Cannes Film Festival | Vogue" frameborder="0" allowfullscreen></iframe></div><h3>Alia Bhatt: Get Ready for Cannes</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/mhsDlD2bF_I" title="Inside Alia Bhatt's Gucci X Adidas Bag | Vogue India" frameborder="0" allowfullscreen></iframe></div><h3>Inside Alia Bhatt's Bag | Vogue</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/bP4AmqiwqvY" title="2 days in MALDIVES! #TravelVlog" frameborder="0" allowfullscreen></iframe></div><h3>2 Days in Maldives | Travel Vlog</h3></div>
+            <!-- All Talk Show Videos -->
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/Pmi0Ah8BAp4" title="Bigg Boss 18" frameborder="0" allowfullscreen></iframe></div><h3>Bigg Boss 18: Weekend With Raveena</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/xrAQs-47hpE" title="Koffee With Karan: Kapoor Sisters" frameborder="0" allowfullscreen></iframe></div><h3>Koffee With Karan: Kapoor Sisters</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/I9dqklU1Snw" title="Koffee With Karan: Sara & Ananya" frameborder="0" allowfullscreen></iframe></div><h3>Koffee With Karan: Sara & Ananya</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/JKTp9ZIS0Q8" title="Umang 2022" frameborder="0" allowfullscreen></iframe></div><h3>Ananya's Moments | Umang 2022</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/ow4gebAx4J8" title="Maniesh Paul" frameborder="0" allowfullscreen></iframe></div><h3>Maniesh Paul with Chinki Minki</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/X8Xm6zAuuvQ" title="Filmfare awards" frameborder="0" allowfullscreen></iframe></div><h3>Filmfare: Janhvi, Orry & Manish</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/4QMVFHjbsjk" title="Meril Prothom Alo Award" frameborder="0" allowfullscreen></iframe></div><h3>Meril Prothom Alo: Shakib & Farin</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/oxAeJNwR5uk" title="Inside Ananya Panday's Home" frameborder="0" allowfullscreen></iframe></div><h3>Inside Ananya Panday's Home</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/mhsDlD2bF_I" title="Inside Alia Bhatt's Bag" frameborder="0" allowfullscreen></iframe></div><h3>Inside Alia Bhatt's Bag | Vogue</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/SL2FLSCyo14" title="Alia Bhatt Cannes" frameborder="0" allowfullscreen></iframe></div><h3>Alia Bhatt: Get Ready for Cannes</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/bP4AmqiwqvY" title="Maldives TravelVlog" frameborder="0" allowfullscreen></iframe></div><h3>2 Days in Maldives | Travel Vlog</h3></div>
         </div>
         
+        <!-- AD PLACEMENT 2: Click Banner -->
+        <div class="ad-container"><ins style="width: 300px;height:250px" data-width="300" data-height="250" class="m8c228b9a7b" data-domain="//data159.click" data-affquery="/2bd8aafa2d94ccb7838a/8c228b9a7b/?placementName=default"></ins></div>
+
         <h2 class="section-title">Dance & Music Performances</h2>
         <div class="movie-grid">
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/HUS3vOt6yGs" title="Yasin X Mithila's Haldi Dance Performance" frameborder="0" allowfullscreen></iframe></div><h3>Yasin X Mithila's Haldi Dance</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/DjvkMIFlOwA" title="Tyla performing live from the Victoria’s Secret Fashion Show" frameborder="0" allowfullscreen></iframe></div><h3>Tyla Live at Victoria’s Secret</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/EEI2VBZDs7E?list=RDEEI2VBZDs7E" title="Lichur Bagane | Taandob | Shakib Khan" frameborder="0" allowfullscreen></iframe></div><h3>Lichur Bagane | Shakib Khan</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/GWNrPJyRTcA?list=RDGWNrPJyRTcA" title="Full Video: Chuttamalle - Devara | NTR | Janhvi Kapoor" frameborder="0" allowfullscreen></iframe></div><h3>Chuttamalle - Devara | NTR</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/3PIbTWq11e4?list=RD3PIbTWq11e4" title="Uyi Amma - Teaser | Azaad Song" frameborder="0" allowfullscreen></iframe></div><h3>Uyi Amma - Teaser | Azaad</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/zoNCYSIBlMo?list=RDzoNCYSIBlMo" title="Shaky (official video) kheti junction isha malviya" frameborder="0" allowfullscreen></iframe></div><h3>Shaky - Official Marathi Song</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/DZ4BtMpaJaU?list=RDDZ4BtMpaJaU" title="EKDEV LIMBU - Jhim Jhimaune Aankha" frameborder="0" allowfullscreen></iframe></div><h3>Jhim Jhimaune Aankha | EKDEV LIMBU</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/c2nHxn2P5EU?list=RDc2nHxn2P5EU" title="Viral Vayyari Full Video Song | Junior Movie | Sreeleela" frameborder="0" allowfullscreen></iframe></div><h3>Viral Vayyari | Sreeleela</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/knZqfUOs7dM" title="2DAY SQUAD | 2023 SHOWCASE" frameborder="0" allowfullscreen></iframe></div><h3>2DAY SQUAD | 2023 SHOWCASE</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/rKRHqGpRgtw" title="Imma Be - Black Eyes Peas / Choregraphy" frameborder="0" allowfullscreen></iframe></div><h3>Imma Be - Black Eyed Peas | Choreo</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/HBuGjhcNitE?list=RDHBuGjhcNitE" title="Tamannaah Bhatia's Sizzling Performance" frameborder="0" allowfullscreen></iframe></div><h3>Tamannaah's Sizzling Performance</h3></div>
-            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/RYsYGmhNnus?list=RDRYsYGmhNnus" title="Chikni Chameli Dance Video by BfFOcean" frameborder="0" allowfullscreen></iframe></div><h3>Chikni Chameli Dance Video</h3></div>
+            <!-- All Music and Dance Videos -->
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/U3vONIizYG8?list=RDU3vONIizYG8" title="BESOS" frameborder="0" allowfullscreen></iframe></div><h3>BESOS | Jacqueline Fernandez</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/fEGP-RE04_k?list=RDfEGP-RE04_k" title="MARJU KOI" frameborder="0" allowfullscreen></iframe></div><h3>MARJU KOI (Teaser) | Gippy Grewal</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/ZLU4rx24024?list=RDZLU4rx24024" title="JHIM JHIM" frameborder="0" allowfullscreen></iframe></div><h3>JHIM JHIM | Neha Kakkar</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/Aa2ZpTBmzlw?list=RDAa2ZpTBmzlw" title="Bheegi Saree" frameborder="0" allowfullscreen></iframe></div><h3>Bheegi Saree | Param Sundari</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/Ks09hCTzYpg?list=RDKs09hCTzYpg" title="Aisi Jannat" frameborder="0" allowfullscreen></iframe></div><h3>Aisi Jannat | Laqshay Kapoor</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/fnlxNm6JZV0?list=RDfnlxNm6JZV0" title="Tujhko hi dulhan Dance" frameborder="0" allowfullscreen></iframe></div><h3>Tujhko Hi Dulhan | Dance</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/UBA3OQSJU58" title="The Mayyas" frameborder="0" allowfullscreen></iframe></div><h3>Golden Buzzer: The Mayyas</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/y3hOhcAdKNE" title="Binita Chetry BGT" frameborder="0" allowfullscreen></iframe></div><h3>BGT: 8-Year-Old Binita Chetry</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/xrfB8D4UcHc" title="Aiwa Raqs Dance Competition" frameborder="0" allowfullscreen></iframe></div><h3>Aiwa Raqs Dance Competition</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/HUS3vOt6yGs" title="Yasin X Mithila's Haldi Dance" frameborder="0" allowfullscreen></iframe></div><h3>Yasin X Mithila's Haldi Dance</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/DjvkMIFlOwA" title="Tyla Live" frameborder="0" allowfullscreen></iframe></div><h3>Tyla Live at Victoria’s Secret</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/3PIbTWq11e4?list=RD3PIbTWq11e4" title="Uyi Amma" frameborder="0" allowfullscreen></iframe></div><h3>Uyi Amma - Teaser | Azaad</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/zoNCYSIBlMo?list=RDzoNCYSIBlMo" title="Shaky" frameborder="0" allowfullscreen></iframe></div><h3>Shaky - Official Marathi Song</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/DZ4BtMpaJaU?list=RDDZ4BtMpaJaU" title="Jhim Jhimaune Aankha" frameborder="0" allowfullscreen></iframe></div><h3>Jhim Jhimaune Aankha | EKDEV LIMBU</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/knZqfUOs7dM" title="2DAY SQUAD" frameborder="0" allowfullscreen></iframe></div><h3>2DAY SQUAD | 2023 SHOWCASE</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/rKRHqGpRgtw" title="Imma Be Choregraphy" frameborder="0" allowfullscreen></iframe></div><h3>Imma Be - Black Eyed Peas | Choreo</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/GWNrPJyRTcA?list=RDGWNrPJyRTcA" title="Chuttamalle" frameborder="0" allowfullscreen></iframe></div><h3>Chuttamalle - Devara | NTR</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/EEI2VBZDs7E?list=RDEEI2VBZDs7E" title="Lichur Bagane" frameborder="0" allowfullscreen></iframe></div><h3>Lichur Bagane | Shakib Khan</h3></div>
+            <div class="movie-card"><div class="video-wrapper"><iframe loading="lazy" src="https://www.youtube.com/embed/c2nHxn2P5EU?list=RDc2nHxn2P5EU" title="Viral Vayyari" frameborder="0" allowfullscreen></iframe></div><h3>Viral Vayyari | Sreeleela</h3></div>
         </div>
     </main>
 
-    <footer>
-        <p>&copy; 2024 MovieFlix. All Rights Reserved.</p>
-    </footer>
+    <footer><p>&copy; 2024 MovieFlix. All Rights Reserved.</p></footer>
 
 </body>
 </html>
